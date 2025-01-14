@@ -1,3 +1,5 @@
+import graphviz
+
 class FiniteAutomaton :
     def __init__(self):
         self.states = []
@@ -172,3 +174,4 @@ while True:
     else:
         print("String is not accepted by the automaton.")
 
+visualize_graph(automaton)
